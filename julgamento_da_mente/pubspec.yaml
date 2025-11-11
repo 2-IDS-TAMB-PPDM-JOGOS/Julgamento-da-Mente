@@ -1,0 +1,44 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - imagens/image.png
+    - imagens/tribunal.png
+    - imagens/cadeia.png
+    - imagens/casa.jpg
+    - imagens/casaAdrian.png
+    - imagens/adrian1.jpeg
+    - imagens/adrian2.jpeg
+    - imagens/adrian3.jpeg
+    - imagens/adrian4.jpeg
+    - imagens/adrian5.png
+    - imagens/cena_crime.png
+    - imagens/faca_escondida.png
+    - imagens/adrian_faca.png
+    - imagens/digital.png
+    - imagens/beco.jpg
+    - imagens/mendigo1.png
+    - imagens/mendigo2.png
+    - imagens/beco2.png
+    - imagens/prisao.jpg
+    - imagens/fundo.jpg
+    - imagens/final3.png
+    - imagens/final2.png
+    - imagens/final1.png
+
