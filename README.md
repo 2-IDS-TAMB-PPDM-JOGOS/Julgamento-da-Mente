@@ -98,16 +98,30 @@ O jogo deverá possuir mais de um final possível, determinado pelas escolhas fe
 
 <table align="center">
   <tr><th>Cena</th><th>Imagem</th></tr>
-  <tr><td>Adrian 1</td><td><img src="julgamento_da_mente/imagens/adrian1.jpeg" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Adrian 2</td><td><img src="julgamento_da_mente/imagens/adrian2.jpeg" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Adrian 3</td><td><img src="julgamento_da_mente/imagens/adrian3.jpeg" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Beco</td><td><img src="julgamento_da_mente/imagens/beco.jpg" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Casa do Adrian</td><td><img src="julgamento_da_mente/imagens/casaAdrian.png" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Tribunal</td><td><img src="julgamento_da_mente/imagens/tribunal.png" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Final 1</td><td><img src="julgamento_da_mente/imagens/final1.png" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Final 2</td><td><img src="julgamento_da_mente/imagens/final2.png" width="160" style="border-radius:10px"/></td></tr>
-  <tr><td>Final 3</td><td><img src="julgamento_da_mente/imagens/final3.png" width="160" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian 1</td><td><img src="julgamento_da_mente/imagens/adrian1.jpeg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian 2</td><td><img src="julgamento_da_mente/imagens/adrian2.jpeg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian 3</td><td><img src="julgamento_da_mente/imagens/adrian3.jpeg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian 4</td><td><img src="julgamento_da_mente/imagens/adrian4.jpeg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian 5</td><td><img src="julgamento_da_mente/imagens/adrian5.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Adrian com faca</td><td><img src="julgamento_da_mente/imagens/adrian_faca.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Beco</td><td><img src="julgamento_da_mente/imagens/beco.jpg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Beco 2</td><td><img src="julgamento_da_mente/imagens/beco2.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Cadeia</td><td><img src="julgamento_da_mente/imagens/cadeia.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Casa do Adrian</td><td><img src="julgamento_da_mente/imagens/casaAdrian.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Cena do crime</td><td><img src="julgamento_da_mente/imagens/cena_crime.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Digital</td><td><img src="julgamento_da_mente/imagens/digital.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Faca escondida</td><td><img src="julgamento_da_mente/imagens/faca_escondida.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Final 1</td><td><img src="julgamento_da_mente/imagens/final1.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Final 2</td><td><img src="julgamento_da_mente/imagens/final2.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Final 3</td><td><img src="julgamento_da_mente/imagens/final3.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Fundo</td><td><img src="julgamento_da_mente/imagens/fundo.jpg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Imagem extra</td><td><img src="julgamento_da_mente/imagens/image.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Mendigo 1</td><td><img src="julgamento_da_mente/imagens/mendigo1.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Mendigo 2</td><td><img src="julgamento_da_mente/imagens/mendigo2.png" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Prisão</td><td><img src="julgamento_da_mente/imagens/prisao.jpg" width="150" style="border-radius:10px"/></td></tr>
+  <tr><td>Tribunal</td><td><img src="julgamento_da_mente/imagens/tribunal.png" width="150" style="border-radius:10px"/></td></tr>
 </table>
+
 
 ---
 
