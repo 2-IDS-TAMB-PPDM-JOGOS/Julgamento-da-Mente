@@ -93,7 +93,7 @@ O jogo deverá possuir mais de um final possível, determinado pelas escolhas fe
 ## 🖼️ <b>IMAGENS DO PROJETO</b>
 
 <p align="center">
-  <i>Algumas das principais cenas e ambientes de <b>O Julgamento da Mente</b>.</i>
+  <i>Imagens usadas para cenas e ambientes de <b>O Julgamento da Mente</b>.</i>
 </p>
 
 <table align="center">
