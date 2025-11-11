@@ -28,7 +28,7 @@ class _CenaLocalCrimePageState extends State<CenaLocalCrimePage> {
       'Adrian: “Precisamos encontrar algo que a polícia possa ter deixado passar.”',
     ],
     CenaState.encontraArma: [
-      'Vocês reviram o local por um tempo. Eventualmente, Adrian encontra algo escondido.',
+      'Você e Adrian reviram o local por um tempo. Eventualmente, Adrian encontra algo escondido.',
       'Adrian: “Encontrei isto. Parece ser a arma do crime, mas não foi registrada.”',
     ],
     CenaState.escolhaInvestigar: [
@@ -63,7 +63,6 @@ class _CenaLocalCrimePageState extends State<CenaLocalCrimePage> {
   CenaState _currentState = CenaState.chegadaLocal;
   int _currentTextIndex = 0;
 
-  // --- Funções de Controle de Estado ---
 
   void _advanceDialogue() {
     setState(() {
@@ -72,19 +71,15 @@ class _CenaLocalCrimePageState extends State<CenaLocalCrimePage> {
       if (_currentTextIndex < currentDialogue.length - 1) {
         _currentTextIndex++;
       } else if (!_isChoiceState(_currentState)) {
-        // Só avança para o próximo estado se não for um estado de escolha
         _goToNextState();
       }
-      // Se for um estado de escolha e estiver no último diálogo, espera o input do jogador
     });
   }
 
-  // Define quais estados são pontos de escolha
   bool _isChoiceState(CenaState state) {
     return state == CenaState.escolhaInvestigar;
   }
 
-  // Verifica se as opções de escolha devem ser exibidas
   bool _showChoices() {
     final currentDialogue = _dialogues[_currentState]!;
     return _isChoiceState(_currentState) &&
@@ -109,17 +104,15 @@ class _CenaLocalCrimePageState extends State<CenaLocalCrimePage> {
         break;
 
       case CenaState.pistaFinal:
-        _goToNextPhase(); // Vai para a Fase 3
+        _goToNextPhase(); 
         break;
 
       case CenaState.voltaCasaAdrian:
-        // **Regra de Bloqueio**: Volta para o ponto de escolha forçando o jogador a encontrar a pista.
         _currentState = CenaState.escolhaInvestigar;
         _currentTextIndex = _dialogues[CenaState.escolhaInvestigar]!.length - 1;
         break;
 
       case CenaState.escolhaInvestigar:
-        // Espera pelo input do jogador (handleChoice)
         break;
     }
   }
@@ -128,10 +121,10 @@ class _CenaLocalCrimePageState extends State<CenaLocalCrimePage> {
     setState(() {
       if (_currentState == CenaState.escolhaInvestigar) {
         if (choice == 'Sim: Investigar mais') {
-          _currentState = CenaState.encontraPista; // Segue o caminho correto
+          _currentState = CenaState.encontraPista; 
           _currentTextIndex = 0;
         } else if (choice == 'Não: Voltar para casa') {
-          _currentState = CenaState.voltaCasaAdrian; // Segue o caminho de bloqueio
+          _currentState = CenaState.voltaCasaAdrian; 
           _currentTextIndex = 0;
         }
       }
